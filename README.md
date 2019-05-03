@@ -179,3 +179,4 @@ The code generates two recommendations for the song The Scientist by Coldplay.
 ## Acknowledgments
 
 * Project is inspired by **Sander Dieleman's** blog, [*Recommending music on Spotify with Deep Learning.*](http://benanne.github.io/2014/08/05/spotify-cnns.html)
+* [*Free Music Archive Dataset*](https://github.com/mdeff/fma)
