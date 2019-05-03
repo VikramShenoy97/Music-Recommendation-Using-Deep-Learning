@@ -153,9 +153,13 @@ LetHerGo
 ### Results
 The code generates two recommendations for the song Let Her Go by Passenger.
 
-
+![Output_1](https://github.com/VikramShenoy97/Music-Recommendation-Using-Deep-Learning/blob/master/Images/Output_1.png)
 
 ### More Results
+
+![Output_2](https://github.com/VikramShenoy97/Music-Recommendation-Using-Deep-Learning/blob/master/Images/Output_2.png)
+![Output_3](https://github.com/VikramShenoy97/Music-Recommendation-Using-Deep-Learning/blob/master/Images/Output_3.png)
+
 
 ## Built With
 
