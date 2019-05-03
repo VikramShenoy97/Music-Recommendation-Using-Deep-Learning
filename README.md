@@ -84,11 +84,17 @@ The *train.py* script runs **import_data.py**, **slice_spectrogram.py**, and **l
 
 • **Test Mode** - In testing mode, the script converts the songs from *DLMusicTest_30* into mel-spectrograms and stores them into a folder called *Test_Spectrogram_Images*.
 
+#### Example of a Pop Song Spectrogram
+![pop_Spectrogram](https://github.com/VikramShenoy97/Music-Recommendation-Using-Deep-Learning/blob/master/Images/Pop_Spectrogram.jpg)
+
 ### slice_spectrogram.py
 • **Train Mode** - In training mode, the script slices the spectrograms from the *Train_Spectrogram_Images* folder into 128x128 slices and stores them into the *Train_Sliced_Images* folder.
 
 
 • **Test Mode** - In testing mode, the script slices the spectrograms from the *Test_Spectrogram_Images* folder into 128x128 slices and stores them into the *Test_Sliced_Images* folder.
+
+#### Example of a Spectrogram Slice from Kanye West's Stronger 
+![Kanye_Stronger_Slice](https://github.com/VikramShenoy97/Music-Recommendation-Using-Deep-Learning/blob/master/Images/Kanye_Stronger_Slice.jpg)
 
 ### load_data.py
 • **Train Mode** - In training mode, the script imports images from *Train_Sliced_Images*, converts them into grayscale, and then exports them as numpy matrices for training and testing. This is saved as *train_x.npy*, *train_y.npy*, *test_x.npy*, and *test_y.npy* in the *Training_Data* folder.
