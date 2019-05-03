@@ -148,10 +148,10 @@ This will give you a list of songs.
 Enter an anchor song for which you want similar recommendations (Choose one from the above list).
 ```
 Enter a Song Name:
-LetHerGo
+TheScientist
 ```
 ### Results
-The code generates two recommendations for the song Let Her Go by Passenger.
+The code generates two recommendations for the song The Scientist by Coldplay.
 
 ![Output_1](https://github.com/VikramShenoy97/Music-Recommendation-Using-Deep-Learning/blob/master/Images/Output_1.png)
 
