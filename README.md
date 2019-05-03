@@ -80,14 +80,20 @@ The *train.py* script runs **import_data.py**, **slice_spectrogram.py**, and **l
 
 ### import_data.py
 • **Train Mode** - In training mode, the script converts the files from *fma_small* into mel-spectrograms and stores them into a folder called *Train_Spectrogram_Images*.
+
+
 • **Test Mode** - In testing mode, the script converts the songs from *DLMusicTest_30* into mel-spectrograms and stores them into a folder called *Test_Spectrogram_Images*.
 
 ### slice_spectrogram.py
 • **Train Mode** - In training mode, the script slices the spectrograms from the *Train_Spectrogram_Images* folder into 128x128 slices and stores them into the *Train_Sliced_Images* folder.
+
+
 • **Test Mode** - In testing mode, the script slices the spectrograms from the *Test_Spectrogram_Images* folder into 128x128 slices and stores them into the *Test_Sliced_Images* folder.
 
 ### load_data.py
 • **Train Mode** - In training mode, the script imports images from *Train_Sliced_Images*, converts them into grayscale, and then exports them as numpy matrices for training and testing. This is saved as *train_x.npy*, *train_y.npy*, *test_x.npy*, and *test_y.npy* in the *Training_Data* folder.
+
+
 • **Test Mode** - In testing mode, the script imports images from *Test_Sliced_Images*, converts them into grayscale, and returns them as images and labels.
 
 ### Neural Network Architecture
@@ -106,16 +112,17 @@ Final Training Accuracy = 77.85%
 Final Validation Accuracy = 66.11 %
 ```
 
-• Prediction On Test Set (*This test set is a small part of fma_small dataset that hasn't been trained on*)
+### Prediction On Test Set 
+(*This test set is a small part of fma_small dataset that hasn't been trained on*)
 ![training_prediction](https://github.com/VikramShenoy97/Music-Recommendation-Using-Deep-Learning/blob/master/Graphs/Training_Prediction.jpg)
 
-• Accuracy Graph
+### Accuracy Graph
 ![accuracy_graph](https://github.com/VikramShenoy97/Music-Recommendation-Using-Deep-Learning/blob/master/Graphs/Accuracy_Graph.png)
 
-• Loss Graph
+### Loss Graph
 ![loss_graph](https://github.com/VikramShenoy97/Music-Recommendation-Using-Deep-Learning/blob/master/Graphs/Loss_Graph.png)
 
-• Confusion Matrix
+### Confusion Matrix
 ![confusion_matrix](https://github.com/VikramShenoy97/Music-Recommendation-Using-Deep-Learning/blob/master/Graphs/Confusion_Matrix.png)
 
 
