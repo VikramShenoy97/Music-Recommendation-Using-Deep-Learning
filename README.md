@@ -157,7 +157,7 @@ Enter a Song Name:
 TheScientist
 ```
 ### Results
-The code generates two recommendations for the song The Scientist by Coldplay.
+The code generates two recommendations for the song The Scientist by Coldplay, 1) Let Her Go by Passenger and 2) Say by John Mayer.
 
 ![Output_1](https://github.com/VikramShenoy97/Music-Recommendation-Using-Deep-Learning/blob/master/Images/Output_1.png)
 
